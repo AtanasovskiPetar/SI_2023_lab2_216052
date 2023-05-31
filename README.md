@@ -2,9 +2,10 @@
 ## Петар Атанасовски, 216052
 
 ### 2. Control Flow Graph
-Јазлите на графот ги означуваат сегментите од [кодот](https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/blob/master/src/main/java/SILab2.java) означени со коментар после соодветната линија. Истиот код може да го видите на [дадената сликата](https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/754e180f-cb1a-4f0e-8211-a81aeea1c0c0).
+Јазлите на графот ги означуваат сегментите од [кодот](https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/blob/master/src/test/java/SILab2Test.java) означени со коментар после соодветната линија. Истиот код може да го видите на [дадената сликата](https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/754e180f-cb1a-4f0e-8211-a81aeea1c0c0).
 <br /> Во прилог е целосниот Control Flow Graph (CFG), изработен со помош на алатката draw.io
-![CFG_Lab2](https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/8a8540e3-121b-418c-b0fd-d7e0a04c1df2)
+
+![CFG_Lab2](https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/68cb6aab-4623-40b6-9252-6b58a2e2d1b5)
 
 
 ### 3. Цикломатската комплексност (Cyclomatic Complexity)
@@ -30,7 +31,8 @@
 </br >За објаснување на примерите потребно е прво да креираме различни елементи од класата User.
 </br >Преку овие елементи се генерираат примери. На дадената табела се прикажува со кој пример кои гранки од кодот се врват.
 </br >
-<img width="553" alt="Every Branch" src="https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/2d40673f-bc7d-45d6-a17f-ae2bc29ff030">
+
+<img width="553" alt="Every Branch" src="https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/285631d1-c013-47c7-ad94-c75492adeeae">
 
 ### 5. Сите тест случаи според Multiple Condition критериумот
 Спред овај критериум потребно е да се изминат сите можни сценарија за еден услов.
@@ -38,7 +40,8 @@
 </br >Во следната табела прикажани се можните сценарија на условот и даден е пример со кој се изминува секое дадено сценарио така што сите да бидат опфатени.
 </br >Се користат објектите од класата User од задача 4. А според потребите направени се и некои нови објекти.
 </br >
-<img width="554" alt="Multiple Condition" src="https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/7d935377-f7eb-4387-84c2-257b365efe4a">
+<img width="554" alt="Multiple Condition" src="https://github.com/AtanasovskiPetar/SI_2023_lab2_216052/assets/104850278/207d7a34-f798-4ded-aa9e-f8191eeca356">
+
 
 ### Објаснување на напишаните unit tests
 Unit тестовите се напишани во src/test/java/SILab2Test
